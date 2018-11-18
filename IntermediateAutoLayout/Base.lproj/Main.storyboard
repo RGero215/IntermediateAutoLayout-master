@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Oe8-K6-w5s">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IntermediateAutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Lorem Ipsum is simply dummy text of the p" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vqi-dU-PDq">
+                                <rect key="frame" x="127.66666666666666" y="35" width="276.33333333333337" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtO-nC-Rfk">
+                                <rect key="frame" x="20" y="40" width="87.666666666666671" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vqi-dU-PDq" secondAttribute="trailing" constant="10" id="BCz-r1-Nd5"/>
+                            <constraint firstItem="xtO-nC-Rfk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FbD-c7-BvM"/>
+                            <constraint firstItem="Vqi-dU-PDq" firstAttribute="leading" secondItem="xtO-nC-Rfk" secondAttribute="trailing" constant="20" id="c7j-We-hEC"/>
+                            <constraint firstItem="Vqi-dU-PDq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="hTC-Ao-4cx"/>
+                            <constraint firstItem="xtO-nC-Rfk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wAA-H6-BdO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3Tg-9t-SJH">
+            <objects>
+                <viewController id="y08-0E-vkV" customClass="ViewController" customModule="IntermediateAutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4wh-ke-Xxc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" placeholderIntrinsicWidth="129" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Description in textfield" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ycy-Fy-Ns0">
+                                <rect key="frame" x="255" y="35" width="129" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="751" placeholderIntrinsicWidth="175" placeholderIntrinsicHeight="21" text="Lorem Ipsum is simply dummy text " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Stx-2o-Uab">
+                                <rect key="frame" x="30" y="40" width="205" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ycy-Fy-Ns0" firstAttribute="leading" secondItem="Stx-2o-Uab" secondAttribute="trailing" constant="20" id="0M8-wp-fRK"/>
+                            <constraint firstItem="Stx-2o-Uab" firstAttribute="top" secondItem="uHD-Zf-IWv" secondAttribute="top" constant="20" id="5Jt-Dk-Q9L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ycy-Fy-Ns0" secondAttribute="trailing" constant="10" id="OhS-AT-KTy"/>
+                            <constraint firstItem="Stx-2o-Uab" firstAttribute="leading" secondItem="4wh-ke-Xxc" secondAttribute="leadingMargin" constant="10" id="fr4-sD-dbv"/>
+                            <constraint firstItem="Ycy-Fy-Ns0" firstAttribute="top" secondItem="4wh-ke-Xxc" secondAttribute="topMargin" constant="15" id="pQW-fC-hbL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uHD-Zf-IWv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WH0-BL-bhS" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965.21739130434787" y="133.69565217391306"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2o7-oT-KC7">
+            <objects>
+                <viewController id="bsG-4o-XNF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jsq-rX-EV8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gb1-Ux-F4V">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="08s-Dm-rnA">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="184"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="3Ef-jx-Tfd">
+                                        <rect key="frame" x="0.0" y="184" width="414" height="184"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="fYT-75-5tb">
+                                        <rect key="frame" x="0.0" y="368" width="414" height="184"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="GhV-S4-s7x">
+                                        <rect key="frame" x="0.0" y="552" width="414" height="184"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gb1-Ux-F4V" firstAttribute="leading" secondItem="RSN-Ti-BGN" secondAttribute="leading" id="30o-wp-gq8"/>
+                            <constraint firstItem="gb1-Ux-F4V" firstAttribute="top" secondItem="jsq-rX-EV8" secondAttribute="top" id="gPQ-lh-jQc"/>
+                            <constraint firstAttribute="trailing" secondItem="gb1-Ux-F4V" secondAttribute="trailing" id="nqc-Qd-ev3"/>
+                            <constraint firstAttribute="bottom" secondItem="gb1-Ux-F4V" secondAttribute="bottom" id="vCB-pQ-Sp7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RSN-Ti-BGN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EVA-yz-HPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1636.2318840579712" y="133.69565217391306"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nmu-OH-gPY">
+            <objects>
+                <viewController id="prW-aa-kQv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xyA-IV-S7Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-7v-Dzd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="HYf-tL-19g">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Zt4-3X-Gz6">
+                                        <rect key="frame" x="0.0" y="350" width="414" height="386"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="kHr-08-v6M">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="128.66666666666666"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="qa8-Me-ccV">
+                                                <rect key="frame" x="0.0" y="128.66666666666669" width="414" height="128.66666666666669"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ft7-I5-pnx">
+                                                <rect key="frame" x="0.0" y="257.33333333333337" width="414" height="128.66666666666663"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ezb-7v-Dzd" firstAttribute="leading" secondItem="gS2-8l-G0r" secondAttribute="leading" id="Fo8-vq-83P"/>
+                            <constraint firstItem="Ezb-7v-Dzd" firstAttribute="top" secondItem="xyA-IV-S7Z" secondAttribute="top" id="Qgt-vv-aTx"/>
+                            <constraint firstAttribute="trailing" secondItem="Ezb-7v-Dzd" secondAttribute="trailing" id="e5f-qd-aeX"/>
+                            <constraint firstAttribute="bottom" secondItem="Ezb-7v-Dzd" secondAttribute="bottom" id="kFc-st-uCV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gS2-8l-G0r"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eCs-Wc-csf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2430" y="133"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uLT-wd-FHI">
+            <objects>
+                <viewController id="Oe8-K6-w5s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eSG-QS-MyY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bbt-2r-uUx">
+                                <rect key="frame" x="20" y="20" width="374" height="350"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="vo1-QP-o5u">
+                                        <rect key="frame" x="0.0" y="0.0" width="187" height="350"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="7j0-0B-tOf">
+                                        <rect key="frame" x="187" y="0.0" width="187" height="350"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1PU-so-gOb">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="67"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueP-nO-dCP">
+                                                <rect key="frame" x="0.0" y="67" width="183" height="283"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bbt-2r-uUx" firstAttribute="leading" secondItem="3TX-Jt-Y73" secondAttribute="leading" constant="20" id="aXo-GZ-ZBi"/>
+                            <constraint firstAttribute="trailing" secondItem="bbt-2r-uUx" secondAttribute="trailing" constant="20" id="wJl-Bh-FkN"/>
+                            <constraint firstItem="bbt-2r-uUx" firstAttribute="top" secondItem="3TX-Jt-Y73" secondAttribute="top" id="zcH-Iy-Pe0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3TX-Jt-Y73"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8zd-tq-YzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3079.7101449275365" y="128.80434782608697"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rxo-A9-Bih">
+            <objects>
+                <viewController id="1V7-X1-fVR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D1B-cy-t8e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vbG-8H-KjT">
+                                <rect key="frame" x="20" y="20" width="354" height="101.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KON-Y0-dor">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="81.333333333333329"/>
+                                        <string key="text">Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text </string>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy text " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSS-Yt-Pg0">
+                                        <rect key="frame" x="0.0" y="81.333333333333329" width="354" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vbG-8H-KjT" firstAttribute="top" secondItem="REE-z2-QdH" secondAttribute="top" id="8qE-LG-IwZ"/>
+                            <constraint firstItem="vbG-8H-KjT" firstAttribute="leading" secondItem="REE-z2-QdH" secondAttribute="leading" constant="20" id="Rka-ih-hQA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vbG-8H-KjT" secondAttribute="trailing" constant="20" id="mcP-TJ-acO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="REE-z2-QdH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qs7-Kr-2Yn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3775.36231884058" y="128.80434782608697"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="525" height="350"/>
+        <image name="2" width="525" height="350"/>
+        <image name="3" width="525" height="350"/>
+        <image name="5" width="523" height="350"/>
+    </resources>
+</document>
